@@ -1,0 +1,64 @@
+
+.detalles {
+    background-color:black; 
+    color: #FFFFFF ;
+    font-family: Arial, sans-serif;
+}
+
+.cancion.fortuna {
+    background-color: rgb(50, 50, 197);
+    padding: 30px;
+    display: flex; 
+    align-items: flex-end; 
+    gap: 30px;
+}
+.cancionSENDE {
+    background-color: rgb(191, 191, 223);
+    padding: 30px;
+    display: flex; 
+    align-items: flex-end; 
+    gap: 30px;
+}
+.cancion2{
+    background-color: rgb(122, 122, 252);
+    padding: 30px;
+    display: flex; 
+    align-items: flex-end; 
+    gap: 30px;
+}
+
+.album {
+    width: 200px;
+    height: 200px;
+}
+
+.informacion {
+    padding-bottom: 15px;
+}
+
+.title {
+    font-size: 4em; 
+    font-weight: 900;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.type, .details {
+    margin: 0;
+    color: black; }
+
+.play-button-large {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%; 
+    background-color: green;
+    color: black;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+}
+

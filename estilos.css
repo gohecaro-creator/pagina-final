@@ -1,0 +1,515 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+}
+
+.parte-superior {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #e2dada;
+    padding: 10px 20px;
+    height: 80px; 
+    box-sizing: border-box;
+}
+
+.title1 {
+    color: #fdfafa;
+}
+.lii {
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px; 
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.barra {
+    flex-grow: 1; 
+    display: flex;
+    justify-content: center; 
+}
+
+.busqueda {
+    display: flex;
+    align-items: center;
+    background-color: #242424; 
+    border-radius: 50px; 
+    padding: 8px 15px;
+    width: 400px; 
+    max-width: 100%;
+}
+
+.imagenbuscar, .img {
+    color: #a7a7a7; 
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.textofondo {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    flex-grow: 1; 
+    padding: 0 5px;
+    outline: none; 
+}
+
+.contenidoarriba {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+.nav-link {
+    color: #c3b6b6; 
+    text-decoration: none; 
+    font-weight: 600;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.nav-link:hover {
+    color: #fff; 
+}
+
+.separator {
+    color: #333; 
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.install {
+    color: #fbf7f7; 
+}
+
+.button {
+    background-color: #ffffff; 
+    color: #131313; 
+    border: none;
+    border-radius: 50px; 
+    padding: 12px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.1s, background-color 0.1s;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+body {
+    margin: 0;
+    font-family: 'Circular', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    background-color: #000;
+    color: #c92c2c;
+}
+
+.main-layout {
+    display: flex;
+height: calc(100vh - 80px); 
+   
+}
+
+.sidebar {
+    width: 420px;
+    background-color: #171717;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.scroll-area {
+  max-height: 250px;
+  overflow-y: auto;
+  color: #000;
+  flex: 1;           
+  overflow-y: auto;     
+}
+
+.library-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 16px 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #d2c6c6; 
+}
+
+.library-header .icon {
+    font-size: 20px;
+}
+
+.card {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.create-playlist-card {
+    padding-bottom: 24px;
+}
+
+.card h3 {
+    margin: 0 0 4px 0;
+    font-size: 16px;
+}
+
+.card p {
+    margin: 0 0 16px 0;
+    font-size: 14px;
+    color: #a29d9d;
+}
+
+.primary-button {
+    border: none;
+    border-radius: 500px;
+    padding: 10px 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.1s;
+    font-size: 14px;
+}
+
+.primary-button:hover {
+    transform: scale(1.04);
+}
+
+.white-button {
+    background-color: #fff;
+    color: #000;
+}
+
+.footer-links {
+    margin-top: auto; 
+    padding: 20px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+}
+
+.footer-links a {
+    color: #a7a7a7;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-bottom: 8px;
+}
+
+.cookies-link {
+    width: 100%; 
+}
+
+.language-selector {
+    background: none;
+    border: 1px solid #a7a7a7;
+    color: #fff;
+    border-radius: 500px;
+    padding: 8px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 16px 20px 16px;
+    cursor: pointer;
+}
+
+.main-content {
+    flex-grow: 1;
+    overflow-y: auto; 
+    background: linear-gradient(180deg, #060606 0%, #121212 10%, #000 70%); 
+}
+
+.section {
+ width: 100%; 
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.section h2 {
+     width: 100%; 
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+body {
+    background-color: #0d0d0d; 
+    color: #ffffff; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-right: 10px; 
+}
+
+.header a {
+    color: #b3b3b3; 
+    text-decoration: none;
+    font-size: 0.9rem;
+    cursor: pointer; 
+}
+
+.scroll-container {
+    display: flex;
+    overflow-x: auto; 
+    padding-bottom: 20px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none; 
+}
+
+.songs-container {
+    gap: 20px; 
+}
+
+.song-card {
+    flex-shrink: 0; 
+    color: #d2c6c6;
+    width: 150px; 
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.2s; 
+}
+
+.song-card:hover {
+    background-color: #1e1e1e; 
+    border-radius: 8px; 
+    padding: 5px; 
+    margin: -5px 0;
+}
+
+.song-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px; 
+    margin-bottom: 8px;
+    transition: opacity 0.2s; 
+}
+
+.song-card:hover img {
+    opacity: 0.9;
+}
+
+.song-card .title {
+    font-weight: bold;
+    font-size: 0.95rem;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.song-card .subtitle {
+    color: #b3b3b3;
+    font-size: 0.8rem;
+    margin: 2px 0 0 0;
+}
+
+.artists-container {
+    gap: 30px; 
+}
+
+.artist-card {
+    flex-shrink: 0;
+    width: 150px; 
+    text-align: center;
+    cursor: pointer; 
+    transition: background-color 0.2s; 
+}
+
+.artist-card:hover {
+    background-color: #1e1e1e;
+    border-radius: 8px; 
+    padding: 5px;
+    margin: -5px 0;
+}
+
+.artist-image-wrapper {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 50%; 
+    transition: transform 0.2s;
+}
+
+.artist-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.artist-card .name {
+    font-weight: normal;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.fin {
+    background-color: #989292;
+}
+
+.ista, .face, .tui {
+    height: 70px;
+    border-radius: 100px;
+}
+
+.mensaje {
+  position: relative;
+  cursor: pointer;
+}
+
+.mensaje-text {
+  background-color: #222;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 6px;
+
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s;
+}
+
+.busqueda:hover .mensaje-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* FOOTER */
+.footer {
+  background: #000;
+  color: #fff;
+  display: flex;
+  gap: 60px;
+  padding: 40px 80px;
+  flex-wrap: wrap;
+}
+
+.footer-col h4 {
+  color: #919496;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.footer-col a {
+  display: block;
+  color: #7b7777;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.footer-col a:hover {
+  color: #ffffff;
+}
+
+/* ================= TABLET ================= */
+@media (max-width: 1024px) {
+
+  .sidebar {
+    width: 300px;
+  }
+
+  .main-content {
+    margin-left: 300px;
+  }
+
+  .busqueda {
+    width: 280px;
+  }
+
+  .song-card,
+  .artist-card {
+    width: 140px;
+  }
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .barra {
+    display: none;
+  }
+
+  .contenidoarriba .nav-link,
+  .separator {
+    display: none;
+  }
+
+  /* OCULTAR SIDEBAR */
+  .sidebar {
+    display: none;
+  }
+
+  /* MAIN SIN EMPUJAR ABAJO */
+  .main-content {
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .song-card,
+  .artist-card {
+    width: 160px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 20px;
+  }
+}
+
+/* ================= MOBILE PEQUEÑO ================= */
+@media (max-width: 480px) {
+
+  .song-card,
+  .artist-card {
+    width: 140px;
+  }
+
+  .section h2 {
+    font-size: 20px;
+  }
+
+  .header a {
+    font-size: 12px;
+  }
+}
